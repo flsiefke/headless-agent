@@ -32,3 +32,18 @@ out/
 # Temporary files
 tmp/
 temp/
+
+# Replit-specific
+.replit
+.replit_history
+.replit-backups
+.replid
+.replit-*
+*.replit
+*.replit-run
+
+# Python virtual envs (if any for hybrid projects)
+venv/
+.venv/
+ENV/
+env/
