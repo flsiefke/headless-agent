@@ -12,7 +12,6 @@ def health():
 def oauth_start():
   client_id = os.getenv("GHL_CLIENT_ID", "YOUR_CLIENT_ID")
   redirect_uri = os.getenv("OAUTH_REDIRECT_URI", "http://localhost:8000/oauth/callback")
-  # GHL OAuth authorize endpoint (placeholder)
   auth_url = (
     "https://app.gohighlevel.com/oauth/authorize"
     f"?response_type=code&client_id={client_id}&redirect_uri={redirect_uri}"
